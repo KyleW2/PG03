@@ -1,21 +1,21 @@
 run:
-    cd Bubble/
-    make run
-    gcov prog.c
-    cd ..
-    cd Insertion/
-    make run
-    gcov prog.c
-    cd ..
-    cd Merge/
-    make run
-    gcov prog.c
-    cd ..
-    cd Quick/
-    make run
-    gcov prog.c
-    cd ..
-    cd Selection/
-    make run
-    gcov prog.c
-    cd ..
+cd Bubble/
+make run
+gcov prog.c
+cd ..
+cd Insertion/
+make run
+gcov prog.c
+cd ..
+cd Merge/
+make run
+gcov prog.c
+cd ..
+cd Quick/
+make run
+gcov prog.c
+cd ..
+cd Selection/
+make run
+gcov prog.c
+cd ..
