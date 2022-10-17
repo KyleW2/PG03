@@ -97,7 +97,10 @@ int main(int argc, char** argv) {
 
             // Write to output
             write_array(output_file, length_of_array, array);
-           break;
+            
+            // Free array
+            free(array);
+            break;
     };
     return 0;
 }
